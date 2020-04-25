@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KCModUtils.Debugging
 {
-    class DebugExt
+    public class DebugExt
     {
         private static List<int> IDs = new List<int>();
 
