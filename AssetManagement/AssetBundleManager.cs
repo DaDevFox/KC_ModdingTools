@@ -47,7 +47,7 @@ namespace KCModUtils.AssetManagement
                 {
                     string[] pathParts = paths[i].Split('/');
                     string assetName = pathParts[pathParts.Length - 1];
-                    if (assetName == name.ToLower())
+                    if (assetName.ToLower() == name.ToLower())
                     {
                         Asset = assetBundle.LoadAsset(paths[i]);
                     }
