@@ -15,7 +15,7 @@ namespace KCModUtils
 
         public static string modID { get; set; }
 
-        static void Prelaod(KCModHelper helper)
+        static void Preload(KCModHelper helper)
         {
             ModUtilsMain.Helper = helper;
 
