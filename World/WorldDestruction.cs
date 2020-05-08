@@ -11,7 +11,7 @@ namespace KCModUtils.WorldUtilities
     {
 
         /// <summary>
-        /// Completely destroys and rocks, buildings, or signs of life on the cell. 
+        /// Completely destroys any rocks, buildings, or signs of life on the cell. 
         /// </summary>
         /// <param name="cell">The cell to destroy</param>
         /// <param name="vanishBuildings">Wether or not to destroy buidlings on the cell without leaving rubble</param>
